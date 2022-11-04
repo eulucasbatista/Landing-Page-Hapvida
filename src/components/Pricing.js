@@ -68,7 +68,7 @@ const Pricing = () => {
                     <div>
                       <span className='text-2xl font-semibold'>{price}/</span>
                       <span className='text-xl text-light font-light'>
-                        year
+                        mês
                       </span>
                     </div>
                     <div className='text-base text-light'>{userAmount}</div>

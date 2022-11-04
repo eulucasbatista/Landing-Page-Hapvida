@@ -85,34 +85,34 @@ export const features = {
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Free some cost',
-    title: 'Save cost for you and family',
+    pretitle: 'Economia!',
+    title: 'Economize custos para você e sua família',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-    btnLink: 'Learn more',
+      'Com planos especiais que cabem no seu bolso!.',
+    btnLink: 'Saber mais',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
-    pretitle: 'Use anytime',
-    title: 'Use anytime when you need',
+    pretitle: 'De qualquer lugar!',
+    title: 'Use sempre que precisar',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-    btnLink: 'Learn more',
+      'Marque suas consultas e seus exames de forma prática e fácil.',
+    btnLink: 'Saber mais',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
   },
 };
 
 export const product = {
-  title: 'The Product we work with.',
+  title: 'A Maior rede de Hospitais e Clinicas médicas do Brasil.',
   subtitle:
-    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
+    'Deixe a Rede HapVida cuidar de você.',
   cards: [
     {
       icon: CardIconImg1,
-      title: 'Cross platform',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      title: 'Rede Exclusiva',
+      subtitle: 'Com 43 hospitais próprios, 45 prontos atendimentos, 130 clínicas e 109 centros de diagnóstico por imagem e coleta laboratorial.',
       delay: 200,
     },
     {
@@ -131,52 +131,52 @@ export const product = {
 };
 
 export const pricing = {
-  title: 'Choose your flexible plan.',
+  title: 'Escolha seu plano flexível.',
   cards: [
     {
       icon: PricingIcon1,
-      title: 'Starter Plan',
+      title: 'Plano Inicial',
       services: [
-        { name: 'Store unlimited data' },
+        { name: 'Marcação de consulta grátis' },
         { name: 'Export to pdf, xls, csv' },
         { name: 'Cloud server support' },
       ],
-      price: '$9.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      price: 'R$ 81.75',
+      userAmount: 'Para toda familia!',
+      btnText: 'Saiba mais',
       delay: 300,
     },
     {
       icon: PricingIcon2,
-      title: 'Silver Plan',
+      title: 'Plano Prata',
       services: [
-        { name: 'Store unlimited data' },
+        { name: 'Marcação de consulta grátis' },
         { name: 'Export to pdf, xls, csv' },
         { name: 'Cloud server support' },
       ],
-      price: '$19.99',
+      price: 'R$ 134.90',
       userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      btnText: 'Saiba mais',
       delay: 600,
     },
     {
       icon: PricingIcon3,
-      title: 'Diamond Plan',
+      title: 'Plano Diamante',
       services: [
-        { name: 'Store unlimited data' },
+        { name: 'Marcação de consulta grátis' },
         { name: 'Export to pdf, xls, csv' },
         { name: 'Cloud server support' },
       ],
-      price: '$29.99',
+      price: 'R$ 184.90',
       userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      btnText: 'Saiba mais',
       delay: 900,
     },
   ],
 };
 
 export const testimonials = {
-  title: 'We have millions of best wishers',
+  title: 'Você saudável e Feliz é a nossta meta',
   clients: [
     {
       message:
@@ -222,9 +222,9 @@ export const testimonials = {
 };
 
 export const cta = {
-  title: '20M+ downloaded from 32 different countries',
-  subtitle: 'Try demo for 7 days with full features.',
-  btnText: 'Try free demo',
+  title: '+20mil Clientes satisfeitos no Brasil',
+  subtitle: 'Acesse o nosso portal HapVida',
+  btnText: 'Acessar',
   img1: CtaImg1,
   img2: CtaImg2,
 };
