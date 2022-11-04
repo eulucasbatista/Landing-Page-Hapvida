@@ -117,15 +117,36 @@ export const product = {
     },
     {
       icon: CardIconImg2,
-      title: 'Cloud server',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      title: 'Odontologia',
+      subtitle: 'Só no Hapvida, você tem um plano completo de odontologia incluso, com prevenção, diagnóstico, urgência 24h e cobertura em todo Brasil.',
       delay: 400,
     },
     {
       icon: CardIconImg3,
-      title: 'Pure Javascript',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-      delay: 600,
+      title: 'Maior Rede Pediátrica',
+      subtitle: 'A maior rede de atendimento infantil, com UTI neonatal, acompanhamento pediátrico e uma infraestrutura moderna.',
+      delay: 500,
+    },
+  ],
+
+  cards2: [
+    {
+      icon: CardIconImg1,
+      title: 'Atendimento ao cliente 24h',
+      subtitle: 'A sua saúde não pode esperar e por isso, temos uma equipe exclusiva para te ajudar com marcações de consulta, exames e autorizações.',
+      delay: 200,
+    },
+    {
+      icon: CardIconImg2,
+      title: 'Teleconsulta',
+      subtitle: 'De onde estiver: você pode fazer suas consultas preventivas ou mesmo ter atendimento básico pela teleconsulta, no seu smartphone, tablet ou computador..',
+      delay: 400,
+    },
+    {
+      icon: CardIconImg3,
+      title: 'Chat Hapvida',
+      subtitle: 'aça agendamentos, solicite autorizações e tire as suas dúvidas pelo nosso chat.',
+      delay: 500,
     },
   ],
 };

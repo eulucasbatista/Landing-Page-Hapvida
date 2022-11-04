@@ -3,6 +3,7 @@ import React from 'react';
 import { product } from '../data';
 // import components
 import Cards from './Cards';
+import Cards2 from './Cards2';
 
 const Product = () => {
   // destructure product data
@@ -31,8 +32,12 @@ const Product = () => {
         </div>
         {/* cards */}
         <Cards />
+        <Cards2 />
+
       </div>
     </section>
+
+    
   );
 };
 
