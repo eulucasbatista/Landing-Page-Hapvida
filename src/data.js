@@ -197,7 +197,7 @@ export const pricing = {
 };
 
 export const testimonials = {
-  title: 'Você saudável e Feliz é a nossta meta',
+  title: 'Você saudável e Feliz é a nossa meta',
   clients: [
     {
       message:

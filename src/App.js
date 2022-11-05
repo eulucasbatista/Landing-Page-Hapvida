@@ -30,7 +30,6 @@ const App = () => {
       <Header />
       <Hero />
       <Overview />
-
       <Feature2 />
       <Feature3 />
       <Product />
