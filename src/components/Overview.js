@@ -1,11 +1,19 @@
 import React from 'react';
 // import data
-
+import { planos } from '../data';
 const Overview = () => {
   // destructure overview data
-
+  const { title } = planos;
   return (
     <section className='section' id="planForm">
+    {/* title */}
+    <h2
+          className='h2 mb-10 lg:mb-16 text-center'
+          data-aos='fade-up'
+          data-aos-delay='300'
+        >
+          {title}
+        </h2>
       <div className='container mx-auto'
         data-aos='fade-left'
         data-aos-offset='400' >
@@ -16,14 +24,14 @@ const Overview = () => {
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 Nome
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
               <p className="text-red-500 text-xs italic">Insira seu Nome</p>
             </div>
             <div className="w-full md:w-1/2 px-3">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                 Sobrenome
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-last-name" type="text" placeholder="Silva" />
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-last-name" type="text" placeholder="Silva" />
               <p className="text-red-500 text-xs italic">Insira seu Sobrenome</p>
             </div>
           </div>
@@ -33,14 +41,14 @@ const Overview = () => {
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                 Cidade
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="São Paulo" />
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="São Paulo" />
             </div>
             <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                 Estado
               </label>
               <div className="relative">
-                <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                <select className="block appearance-none w-full bg-white border border-gray-700 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                   <option>Acre</option>
                   <option>Alagoas</option>
                   <option>Amapá</option>

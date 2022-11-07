@@ -48,7 +48,8 @@ export const hero = {
   image: HeroImg,
 };
 
-  export const overview = {
+export const planos = {
+  title: 'Faça uma simulação totalmente gratuita!' ,
 
 brands: [
     {
@@ -201,33 +202,33 @@ export const testimonials = {
   clients: [
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'Os planos são excelentes, minha família toda usa, e nós adoramos!',
       image: AvatarImg1,
-      name: 'Cameron Williamson',
-      position: 'CEO',
+      name: 'Carla Fonseca',
+      position: 'Cliente',
       borderColor: '#FF7235',
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'Adoro os planos da da Hapvida, sempre me ajudaram quando eu mais precisei o utilizei e fui super atendida nos hospitais e clinicas!',
       image: AvatarImg2,
-      name: 'Shirley Hand',
-      position: 'CEO',
+      name: 'Marília Ribeiro',
+      position: 'Cliente',
       borderColor: '#FFBE21',
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'Muito Show!, recomendo!!',
       image: AvatarImg3,
-      name: 'Dr. Olivia Hansen',
-      position: 'CEO',
+      name: 'Helen Silva',
+      position: 'Cliente',
       borderColor: '#4756DF',
     },
     {
       message:
         'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg4,
-      name: 'Aubrey Sanford',
+      name: 'Norma Santos',
       position: 'CEO',
       borderColor: '#3EC1F3',
     },
