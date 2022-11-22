@@ -2,6 +2,15 @@ import React from 'react';
 // import data
 import { planos } from '../data';
 const Overview = () => {
+  
+  const enviarForm = (event) =>{
+    //var name = $('#grid-first-name').val();
+    //event.target.name;
+
+    console.log(event.target.name);
+    event.preventDefault()  
+
+  }
   // destructure overview data
   const { title } = planos;
   return (
@@ -18,14 +27,14 @@ const Overview = () => {
       <div className='container mx-auto'
         data-aos='fade-left'
         data-aos-offset='400' >
-        <form className="w-full max-w-lg mx-auto" >
+        <form className="w-full max-w-lg mx-auto" onSubmit={enviarForm}>
           <div className="flex flex-wrap -mx-3 mb-6 order-1 lg:order-2" data-oas='fade-left' data-aos-offset='300'>
 
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 Nome
               </label>
-              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" name="grid-first-name" type="text" placeholder="Antonio" />
               <p className="text-red-500 text-xs italic">Insira seu Nome</p>
             </div>
             <div className="w-full md:w-1/2 px-3">
@@ -86,12 +95,12 @@ const Overview = () => {
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 Telefone
               </label>
-              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="(11) 00000-0000" />
             
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 Email
               </label>
-              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Email" />
      
         <button className='btn btn-sm btn-outline hidden lg:flex aos-init aos-animate' type="submit">Simular plano</button>
             </div>
