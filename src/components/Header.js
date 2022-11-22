@@ -7,6 +7,7 @@ import { HiMenuAlt4, HiOutlineX } from 'react-icons/hi';
 import MobileNav from '../components/MobileNav';
 import Nav from '../components/Nav';
 
+
 const Header = () => {
   // mobile nav state
   const [mobileNav, setMobileNav] = useState(false);
@@ -15,11 +16,15 @@ const Header = () => {
   // destructure header data
   const { logo, btnText } = header;
   // scroll event
+  
+ 
   useEffect(() => {
     window.addEventListener('scroll', () => {
       window.scrollY > 60 ? setIsActive(true) : setIsActive(false);
     });
   });
+
+
   return (
     <header
       className={`${
@@ -40,10 +45,11 @@ const Header = () => {
           <Nav />
         </div>
         {/* cta button - initially hidden - show on desktop mode */}
-        <button
+       <button
           className='btn btn-sm btn-outline hidden lg:flex'
           data-aos='fade-down'
           data-aos-delay='1400'
+          
         >
           {btnText}
         </button>

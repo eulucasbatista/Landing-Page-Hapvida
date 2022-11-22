@@ -11,6 +11,7 @@ const Overview = () => {
           className='h2 mb-10 lg:mb-16 text-center'
           data-aos='fade-up'
           data-aos-delay='300'
+          id='Orcamento'
         >
           {title}
         </h2>
@@ -24,14 +25,14 @@ const Overview = () => {
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 Nome
               </label>
-              <input className="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
               <p className="text-red-500 text-xs italic">Insira seu Nome</p>
             </div>
             <div className="w-full md:w-1/2 px-3">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                 Sobrenome
               </label>
-              <input className="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-last-name" type="text" placeholder="Silva" />
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-last-name" type="text" placeholder="Silva" />
               <p className="text-red-500 text-xs italic">Insira seu Sobrenome</p>
             </div>
           </div>
@@ -82,11 +83,17 @@ const Overview = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0"> 
+            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                Telefone
+              </label>
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
+            
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 Email
               </label>
-              <input className="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
-              <p className="text-red-500 text-xs italic">Insira seu Email</p>
+              <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Antonio" />
+     
+        <button className='btn btn-sm btn-outline hidden lg:flex aos-init aos-animate' type="submit">Simular plano</button>
             </div>
           </div>
         </form>
