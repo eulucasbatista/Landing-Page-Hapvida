@@ -43,8 +43,8 @@ export const nav = [
 export const hero = {
   title: 'Hapvida, Saúde pra valer.',
   subtitle: 'Deixe a Rede Hapvida cuidar de você',
-  btnText: 'Contato',
-  compText: '— Via Whatsapp',
+  btnText: 'Planos Hapvida',
+  compText: '— Conheça os nossos planos!',
   image: HeroImg,
 };
 
